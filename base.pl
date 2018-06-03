@@ -140,7 +140,7 @@ cidadepopulosa(15, "Palu", indonesia, 348757).
 cidadepopulosa(16, "Camberra - Queanbeyan", australia, 334276).
 cidadepopulosa(17, "Mataram", indonesia, 329544).
 cidadepopulosa(18, "Kendari", indonesia, 307208).
-cidadepopulosa(19, "Port Moresby", P. N. Guiné, 307103).
+cidadepopulosa(19, "Port Moresby", papua_nova_guine, 307103).
 cidadepopulosa(20, "Central Coast", australia, 306025).
 
 
