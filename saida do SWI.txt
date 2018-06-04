@@ -1,0 +1,92 @@
+?- q1.
+true .
+
+?- q2.
+true .
+
+?- q3(oceania).
+true .
+
+?- q4(PAIS,IDIOMA).
+PAIS = australia,
+IDIOMA = ingles ;
+true.
+
+?- q5(POSICAO,CIDADE,PAIS,wellington).
+POSICAO = 9,
+CIDADE = "Auckland",
+PAIS = nova_zelandia ;
+POSICAO = 11,
+CIDADE = "Manukau",
+PAIS = nova_zelandia ;
+POSICAO = 12,
+CIDADE = "Christchurch",
+PAIS = nova_zelandia ;
+true.
+?- q5(POSICAO,CIDADE,PAIS,cambera).
+POSICAO = 1,
+CIDADE = "Sydney",
+PAIS = australia ;
+POSICAO = 2,
+CIDADE = "Melbourne",
+PAIS = australia ;
+POSICAO = 3,
+CIDADE = "Brisbane",
+PAIS = australia ;
+POSICAO = 5,
+CIDADE = "Perth",
+PAIS = australia ;
+POSICAO = 6,
+CIDADE = "Adelaide",
+PAIS = australia ;
+POSICAO = 8,
+CIDADE = "Gold Coast - Tweed",
+PAIS = australia ;
+POSICAO = 16,
+CIDADE = "Camberra - Queanbeyan",
+PAIS = australia ;
+܀CIDADE = "Kupang",
+POSICAO = 14 ;
+CIDADE = "Palu",
+POSICAO = 15 ;
+CIDADE = "Mataram",
+POSICAO = 17 ;
+CIDADE = "Kendari",
+POSICAO = 18 ;
+CIDADE = "Auckland",
+POSICAO = 9 ;
+CIDADE = "Manukau",
+POSICAO = 11 ;
+CIDADE = "Christchurch",
+POSICAO = 12 ;
+true.
+
+?- q6a(indonesio,CIDADE,POSICAO).
+true.
+
+?- q7(PAIS,CAPITAL,IDIOMA,australasia).
+PAIS = australia,
+CAPITAL = cambera,
+IDIOMA = ingles ;
+PAIS = nova_zelandia,
+CAPITAL = wellington,
+IDIOMA = lingua_de_sinais_da_nova_zelandia ;
+PAIS = nova_zelandia,
+CAPITAL = wellington,
+IDIOMA = maori ;
+PAIS = nova_zelandia,
+CAPITAL = wellington,
+IDIOMA = ingles ;
+true.
+
+८?- q8(L).
+L = [(australasia, ilha_do_natal, "utc+07:00"),  (melanesia, indonesia, "utc+09:00"),  (melanesia, timor_leste, "utc+09:00"),  (micronesia, guam, "utc+10:00"),  (polinesia, ilhas_cook, "utc-10:00"),  (australasia, ilhas_cocos, "utc+07:00"),  (micronesia, marianas_setentrionais, "utc+10:00"),  (micronesia, ..., ...),  (..., ...)|...]
+
+?- q9(L).
+L = [(australasia, australia, ingles),  (australasia, nova_zelandia, ingles)] .
+
+?- q10(L,indonesia).
+L = [] .
+
+?- q10(L,australasia).
+L = [(australia, ingles),  (nova_zelandia, lingua_de_sinais_da_nova_zelandia),  (nova_zelandia, maori),  (nova_zelandia, ingles)] .
